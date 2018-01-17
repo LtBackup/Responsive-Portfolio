@@ -26,15 +26,18 @@
 } */
 
 .portItem{
+    width: 100%;
+    height: auto;
+    /* text-align: center; */
     /* margin: 20px 15px 20px 10px; */
     /* float: left; */
-    position: relative;
+    /* position: relative; */
 }
 
 .portImage{
     height: 200px;
     width: 300px;
-    position: relative;
+    /* position: relative; */
     z-index: 1;
 }
 
@@ -73,7 +76,7 @@
 #bodyCenter{
     /* width: 960px; */
     min-height: calc(100vh - 170px);
-    /* margin: 0 auto; */
+    margin-bottom: 20px;
 }
 
 /* #topCenter{
@@ -163,7 +166,7 @@ html, body{
 .article{
     background-color: lightgray;
     /* width: 650px; */
-    /* margin: 20px 20px 20px 0; */
+    margin-bottom: 20px;
     /* float: left; */
     /* position: relative; */
     /* border-style: solid;
@@ -175,7 +178,7 @@ html, body{
     background-color: lightgray;
     /* width: 270px; */
     /* float: left; */
-    /* margin: 20px 0 20px 20px; */
+    /* margin: 0 0 20px 0; */
 }
 
 #footer{
