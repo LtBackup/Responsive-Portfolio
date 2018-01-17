@@ -1,15 +1,3 @@
-/* .box{
-    border-style: solid;
-    border-color: crimson;
-    border-width: 3px;
-}*/
-
-/* .floatRight{
-    float: right;
-    padding: 0 20px;
-    font-size: 18px;
-} */
-
 .socialButton{
     background-color: rgb(228, 228, 228);
     height: auto;
@@ -18,20 +6,14 @@
     margin: auto;  
     display: block;
     margin-bottom: 10px;
-    /* float: left; */
+    
 }
-
-/* .picHolder{
-    height: 100%;
-} */
 
 .portItem{
     max-width: 300px;
     height: auto;
-    /* text-align: center; */
     margin: 10px auto;
     padding: 0;
-    /* float: left; */
     position: relative;
 }
 
@@ -55,7 +37,6 @@
 }
 
 #name{
-    /* float: left; */
     height: 80px;
     line-height: 80px;
     text-align: center;
@@ -66,32 +47,18 @@
 #mePic{
     height: auto;
     max-width: 100%;
-    /* float: left; */
     margin: 0 10px 0 10px;
 }
 
-/* #socialCase{
-    width: 255px;
-    margin: auto;
-} */
-
 #bodyCenter{
-    /* width: 960px; */
     min-height: calc(100vh - 170px);
 }
 
-/* #topCenter{
-    width: 960px;
-    margin: 0 auto;
-    position: relative;
-} */
 
 #submit{
     background-color: dodgerblue;
     color: #333;
-    /* width: 100px; */
     height: 50px;
-    /* float: right; */
     margin: 0 20px 10px 0;
     line-height: 50px;
     text-align: center;
@@ -136,9 +103,7 @@ a:active{
 
 #header{
     width: 100%;
-    /* height: 80px; */
     background-color: gray;
-    /* position: relative; */
     border-bottom: solid;
     border-color: dodgerblue;
     border-width: 5px;
@@ -146,8 +111,6 @@ a:active{
 }
 
 .nav{
-    /* float: right; */
-    /* height: 80px; */
     font-size: 14pt;
     line-height: 80px;
     text-align: center;
@@ -166,20 +129,12 @@ html, body{
 
 .article{
     background-color: lightgray;
-    /* width: 650px; */
     margin-bottom: 20px;
-    /* float: left; */
-    /* position: relative; */
-    /* border-style: solid;
-    border-color: #7c0ce8;
-    border-width: 2px; */
 }
 
 .aside{
     background-color: lightgray;
     margin-bottom: 20px;
-    /* width: 270px; */
-    /* float: left; */
 }
 
 #footer{
@@ -192,8 +147,6 @@ html, body{
     border-color: dodgerblue;
     border-width: 5px;
     clear: both;
-    /* position: absolute;
-    bottom: 0; */
 }
 
 h1{ 
@@ -237,7 +190,6 @@ input[type=text] {
     display: inline-block;
     box-sizing: border-box;
     border: 2px solid #333;
-    /* border-radius: 4px; */
 }
 
 textarea{
@@ -247,7 +199,6 @@ textarea{
     display: inline-block;
     box-sizing: border-box;
     border: 2px solid #333;
-    /* clear: both; */
 }
 
 #message{
