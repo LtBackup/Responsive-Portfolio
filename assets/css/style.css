@@ -4,22 +4,29 @@
     border-width: 3px;
 }
 
-.floatRight{
-    /* float: right; */
+/* .floatRight{
+    float: right;
     padding: 0 20px;
     font-size: 18px;
-}
+} */
 
 .socialButton{
     background-color: rgb(228, 228, 228);
-    height: 75px;
-    width: 75px;
-    margin: 5px 5px 10px 5px;
+    height: auto;
+    max-width: 75px;
+    text-align: center;
+    margin: auto;  
+    display: block;
+    /* margin: 5px 5px 10px 5px; */
     /* float: left; */
 }
 
+/* .picHolder{
+    height: 100%;
+} */
+
 .portItem{
-    margin: 20px 15px 20px 10px;
+    /* margin: 20px 15px 20px 10px; */
     /* float: left; */
     position: relative;
 }
@@ -52,16 +59,16 @@
 }
 
 #mePic{
-    height: 200px;
-    width: 200px;
+    height: auto;
+    max-width: 100%;
     /* float: left; */
     margin: 0 10px 0 10px;
 }
 
-#socialCase{
-    /* width: 255px; */
-    /* margin: auto; */
-}
+/* #socialCase{
+    width: 255px;
+    margin: auto;
+} */
 
 #bodyCenter{
     /* width: 960px; */
@@ -69,11 +76,11 @@
     /* margin: 0 auto; */
 }
 
-#topCenter{
-    /* width: 960px; */
-    /* margin: 0 auto; */
-    /* position: relative; */
-}
+/* #topCenter{
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+} */
 
 #submit{
     background-color: dodgerblue;
@@ -153,10 +160,10 @@ html, body{
     color: #333;
 }
 
-article{
+.article{
     background-color: lightgray;
     /* width: 650px; */
-    margin: 20px 20px 20px 0;
+    /* margin: 20px 20px 20px 0; */
     /* float: left; */
     /* position: relative; */
     /* border-style: solid;
@@ -164,11 +171,11 @@ article{
     border-width: 2px; */
 }
 
-aside{
+.aside{
     background-color: lightgray;
     /* width: 270px; */
     /* float: left; */
-    margin: 20px 0 20px 20px;
+    /* margin: 20px 0 20px 20px; */
 }
 
 #footer{
@@ -191,19 +198,20 @@ h1{
 
 h2{
     font-size: 20pt;
-    padding: 20px 10px 10px 30px;
+    padding: 0 10px 0 10px;
 
 }
 
 h3{
     font-size: 12pt;
     text-align: center;
-    padding: 20px;
+    padding: 0px 0 12px 0;
 }
 
 p{
+    font-size: 16px;
     font-family: muli, sans-serif;
-    padding: 0 10px 10px 10px;
+    padding: 0 10px 0 10px;
     line-height: 1.6;
 }
 
